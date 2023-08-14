@@ -1,0 +1,447 @@
+html,body {
+  margin: 0;
+  padding: 0;
+}
+
+/*Top Bar */
+
+#top_bar {
+    background: #FFDD33 0% 0% no-repeat padding-box;
+    display: flex;
+    height: 197px;
+
+}
+
+.Valleydale_logo_top {
+    max-width: 100%;
+    height: auto;
+    padding-top: 36px;
+    padding-left: 4.7%;
+    padding-bottom: 2%;
+    
+}
+
+.social-wrapper {
+    align-items: center;
+    
+}
+
+.social_media_logos {
+    max-width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    padding-right: 15%;;
+     
+}
+
+/*Hero*/
+
+#Hero_Overlay {
+    width: 100%;
+    left: 0px;
+    position: absolute;
+    background: #DDAABB;
+}
+
+.hero_text {
+    position: absolute;
+    padding: 10% 20%;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 5vw;
+    color: white;
+}
+
+.hero_image {
+    width: 100%;
+    z-index: -1;
+    position: relative;
+}
+
+.hero_wrapper {
+    position: relative;
+    text-align: center;
+
+}
+
+/* Coming Soon */
+
+#Coming_Soon_Box {
+    position: relative;
+    width: 100%;
+    background: #58585A;
+}
+
+#coming_soon_heading {
+    padding-left: 7.3%;
+    padding-top: 3.1%;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+    position: relative;
+    color: white;
+    font-size: calc(18px + 1vw);
+}
+
+#coming_soon_body {
+    padding-top: 20px;
+    font-size: calc(16px);
+    font-family: 'Merriweather';
+    padding-left: 7.3%;
+    color: white;
+    height: auto;
+}
+
+#coming_soon_bluetag {
+    color: #5DADFF;
+    padding-top: 20px;
+    padding-left: 7.3%;
+    font-style: italic;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+}
+
+#coming_soon_top_down {
+    padding-top: 5.1%;
+    padding-bottom: 5.1%;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Icon Box */
+
+#Icon-Box {
+    width: 100%;
+    position: relative;
+    text-align: center;
+
+}
+
+.icon-circle {
+    max-width: 55%;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    text-align: center;
+    
+}
+
+.icon-text {
+    text-align: center;
+    padding-bottom: 25px;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+}
+
+/* Slideshow */
+
+#Slide-Show-Box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10vw;
+    padding-top: 10vw;
+    width: 100%;
+    position: relative;
+    background: #58585A;
+}
+
+#slideshow {
+    max-width: 100%;
+    height: auto;
+}
+
+/* CEO Quote Box */
+
+#CEO-Quote-Box {
+    width: 100%;
+    position: relative;
+    background: black;
+    text-align: center;
+}
+
+#CEO-Quote {
+    padding-top: 60px;
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: auto;
+}
+
+#CEO-Title {
+    padding-top: 60px;
+    padding-bottom: 50px;
+    color: #5DADFF;
+    font-style: italic;
+}
+
+/* News Box */
+
+#News_Box {
+    width: 100%;
+    position: relative;
+    background: #58585A;
+    text-align: center;
+}
+
+#News_Title {
+    color: white;
+    padding-top: 60px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+    font-size: calc(18px + 1vw);
+}
+
+/* Map Box */
+
+#Map_Box {
+    width: 100%;
+    position: relative;
+    background: #58585A;
+}
+
+#Map_Box_Title {
+    color: white;
+    font-size: calc(18px + 1vw);
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+    padding-top: 20%;
+
+}
+
+#Map_Box_Line {
+    max-width: 60%;
+    height: auto;
+}
+
+#Map_Box_Address {
+    color: white;
+    font-family: 'Merriweather';
+    padding-bottom: 30px;
+}
+
+#Map_Box_Map {
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    height: auto;
+}
+
+/* Mailing Box */
+
+#Mailing_Box {
+    background-image: url("Mailing_ListImage@2x.png");
+    width: 100%;
+    position: relative;
+    height: 100%;
+
+    
+}
+
+#Mailing_Box_top {
+    color: white;
+    padding-left: 7.3%;
+    padding-top: 80px;
+    font-style: bold;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#Mailing_Box_desc {
+    padding-top: 15px;
+    color: white;
+    font-family: 'Merriweather';
+}
+
+#Mailing_Box_Form {
+    padding-top: 30px;
+    padding-left: 7.3%;
+    padding-right: 2%;
+    padding-bottom: 30px;
+}
+
+#Mail_Button { 
+    
+    display: flex;
+    width: 147px;
+    height: 72px;
+    background: #5DADFF;
+    color: white;
+    border-radius: 40px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-style: medium;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+button {
+    padding-left: 30px;
+    border: none;
+    background: none;
+}
+
+/* Bottom Bar */
+
+#Bottom_Bar {
+    padding-left: 6.7%;
+    padding-top: 30px;
+    width: 100%;
+    position: relative;
+    background: white;
+}
+
+.bottom_headers {
+    color: black;
+    font-style: bold;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+.bottom_contact_links {
+    color: #5DADFF;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-family: 'Merriweather';
+}
+
+#alumni-properties {
+    padding-top: 22px;
+}
+
+.social_bottom {
+    padding-top: 38px;
+}
+
+#lot_22 {
+    padding-top: 30px;
+    padding-left: 7.3%;
+    width: 100%;
+    position: relative;
+    font-family: 'Merriweather';
+    padding-bottom: 20px;
+}
+
+#bottom_valley_dale {
+    max-width: 90%;
+}
+
+
+/* MEDIA QUERIES */
+
+
+@media screen and (max-width: 1200px) {
+    #Coming_Soon_Box {
+        text-align: center;
+    }
+    #coming_soon_heading {
+        padding-left: 0%;
+    }
+    #coming_soon_body {
+        padding-left: 0%;
+    }
+    #coming_soon_bluetag {
+        padding-left: 0%;
+    }
+    
+}
+
+@media screen and (max-width: 992px) {
+    .top-bar {
+        text-align: center;
+    }
+    .Valleydale_logo_top {
+        padding-left: 0%;
+    }
+    .social_media_logos {
+        margin-right: 5%;
+        margin-left: 7%;
+        padding-right: 0%; 
+    }
+    #lot_22 {
+        text-align: center;
+    }
+    .bottom_headers {
+        text-align: left;
+    }
+    .bottom_contact_links {
+        text-align: left;
+    }
+    #Bottom_Bar {
+        text-align: center;
+    }
+    #parker {
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
+    #alumni-properties {
+        margin-top: 15px;
+    }
+    #bottom_valley_dale {
+        margin-top: 15px;
+    }
+    
+    
+}
+
+
+@media screen and (max-width: 410) {
+    #Mail_Button {
+        margin-top: 20px;
+    }
+    .icon-text {
+        font-size: 16px;
+    }
+    .icon-circle {
+        max-width: 15%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
